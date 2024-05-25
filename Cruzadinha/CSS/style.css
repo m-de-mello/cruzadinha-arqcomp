@@ -1,0 +1,184 @@
+@font-face {
+  font-family: Tommy;
+  src: url(fonts/Tommy-Medium.otf);
+}
+
+@font-face {
+  font-family: Cocogoose-Bold;
+  src: url(fonts/Cocogoose-Pro-Bold-trial.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tommy;
+}
+
+main {
+  background-image: url(img/background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#back {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+  font-family: Cocogoose-Bold;
+}
+
+header h1 {
+  padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+table {
+  border: 1px #002348 solid;
+  font-size: 25px;
+  margin-left: 130px;
+  margin: auto;
+}
+
+tr {
+  border: 1px #002348 solid;
+}
+
+td {
+  border: 1px #002348 solid;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: center;
+}
+
+button {
+  border: 0px;
+  height: 45px;
+  background-color: #002348;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #023e7d;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+#div_game {
+  margin: auto;
+  padding: 30px 0px;
+
+  width: 800px;
+  height: 850px;
+}
+
+#div_questions {
+  width: 700px;
+  height: 80px;
+  margin: auto;
+  padding: 10px 0 10px 0;
+}
+
+#span_questionText {
+  color: #fff;
+  font-size: 16px;
+}
+
+.button {
+  margin: auto;
+  display: inline-block;
+}
+
+#button_verify {
+  width: 100px;
+  margin: 15px 0 0 0;
+}
+
+#input_answer {
+  width: 200px;
+  height: 25px;
+  margin: auto;
+  margin-right: 20px;
+  color: #023e7d;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Tommy;
+}
+
+#div_canvasCruzada {
+  margin-top: 50px;
+}
+
+.deadCell {
+  background-color: #002348;
+}
+
+.availableCell {
+  background-color: #fff;
+}
+
+footer {
+  height: 80px;
+  background-color: #001233;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 0;
+  padding: 0 0 10px 0;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+}
+
+#div_information {
+  width: 80%;
+  padding: 20px 10px 0 20px;
+  margin: auto;
+  background-color: rgba(2, 62, 125, 0.3);
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#div_information h1, #div_information h2, #div_information p {
+  color: #fff;
+}
+
+#div_verifiedAnswer {
+  width: 500px;
+  height: 70px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: center;
+  margin-bottom: 20px;
+}
+
+.correctAnswer {
+  background-color: #58d68d;
+  color: #196f3d;
+  border: 1px #196f3d solid;
+}
+
+.wrongAnswer {
+  background-color: #ec7063;
+  color: #7b241c;
+  border: 1px #7b241c solid;
+}
